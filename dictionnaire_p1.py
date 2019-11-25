@@ -7,7 +7,7 @@ print(personne['ville'])
 #**********************************************Exercice 1.2********************************
 numfavoris={"Etienne":"0240263042","Remi":"0123235689","Antoine":"0785631245"}
 for key, values in numfavoris.items():
-        print("nom ",key)
+        print("nom ",key.upper())
         print("numéro",values)
 print("Le numéro d'etienne est",numfavoris["Etienne"])
 
@@ -47,7 +47,7 @@ for key,values in favorites_places.items():
 #***************************************Numéros préférés V2**********************************************************************
 numfavoris={"Etienne":["0240263042","07215863223"],"Remi":["0123235689","0245562312"],"Antoine":["0785631245","0240353317"]}
 for key,values in numfavoris.items():
-        print(key)
+        print(key.upper())
         for tel in values:
                 print(tel)
 #*******************************************villes*******************************************************************************
